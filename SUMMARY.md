@@ -1,15 +1,15 @@
 # Summary
 
 * [Introduction](README.md)
-* [Quick Start](quick_start.md)
-* Client-side Development
+* [Quick Start](quick-start.md)
+* [Client-side Development](server-side-development/README.md)
 	* [Client-side Code](to_come.md)
 	* [Client-side Templates](to_come.md)
 	* [Defining multiple Single-Page Clients](to_come.md)
 	* [Loading Assets On Demand](to_come.md)
 	* [Live Reload](to_come.md)
 	* [Web Workers](to_come.md)
-* Server-side Development
+* [Server-side Development](server-side-development/README.md)
 	* [RPC Responder](to_come.md)
 	* [Pub/Sub Events](to_come.md)
 	* [Sessions](to_come.md)
@@ -17,9 +17,9 @@
 	* [HTTP Middleware](to_come.md)
 	* [Authentication](to_come.md)
 	* [Testing Your App](to_come.md)
-* Best Practices
+* [Best Practices](best-practices/README.md)
 	* [Hosting in Production](to_come.md) - Packing assets, CDNs, handling exceptions
-* Extending SocketStream
+* [Extending SocketStream](extending-socketstream/README.md)
 	* [Writing Template Engine Wrappers](to_come.md) - support any of the gazillion template formats out there
 	* [Writing Request Responders](to_come.md) - experiment with models and low-level message protocols
 * [HTML/CSS/JS code preprocessers](to_come.md)
