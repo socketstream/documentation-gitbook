@@ -23,7 +23,7 @@ SocketStream sits comfortably between loose approaches like Express + Socket.io 
 
 ### What SocketStream Does
 
-So what does SocketStream do? Here are the basics, but we'll go into depth on each one further in the documentation.
+So what does SocketStream do? Here are some of the basics, but we'll go into depth on each one further in the documentation.
 
 * HTML/CSS/JS code preprocessers
 * Live reload (development)
