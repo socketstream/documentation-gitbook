@@ -3,26 +3,27 @@
 * [Introduction](README.md)
 * [Quick Start](quick-start.md)
 * [Client-side Development](server-side-development/README.md)
-	* [Client-side Code](to_come.md)
-	* [Client-side Templates](to_come.md)
-	* [Defining multiple Single-Page Clients](to_come.md)
-	* [Loading Assets On Demand](to_come.md)
-	* [Live Reload](to_come.md)
-	* [Web Workers](to_come.md)
+	* [Client-side Code](client-side-code.md)
+	* [Client-side Templates](client-side-templates.md)
+	* [Defining multiple Single-Page Clients](multiple-single-page-clients.md)
+	* [Loading Assets On Demand](loading-assets-on-demand.md)
+	* [Live Reload](live-reload.md)
+	* [Web Workers](web-workers.md)
 * [Server-side Development](server-side-development/README.md)
-	* [RPC Responder](to_come.md)
-	* [Pub/Sub Events](to_come.md)
-	* [Sessions](to_come.md)
-	* [Request Middleware](to_come.md)
-	* [HTTP Middleware](to_come.md)
-	* [Authentication](to_come.md)
-	* [Testing Your App](to_come.md)
+	* [RPC Responder](rpc-responder.md)
+	* [Pub/Sub Events](pub-sub-events.md)
+	* [Sessions](sessions.md)
+	* [Request Middleware](request-middleware.md)
+	* [HTTP Middleware](http-middleware.md)
+	* [Authentication](authentication.md)
+	* [Testing Your App](testing-your-app.md)
 * [Best Practices](best-practices/README.md)
-	* [Hosting in Production](to_come.md) - Packing assets, CDNs, handling exceptions
+	* [Hosting in Production](hosting-in-production.md) - Packing assets, CDNs, handling exceptions
 * [Extending SocketStream](extending-socketstream/README.md)
-	* [Writing Template Engine Wrappers](to_come.md) - support any of the gazillion template formats out there
-	* [Writing Request Responders](to_come.md) - experiment with models and low-level message protocols
-* [HTML/CSS/JS code preprocessers](to_come.md)
+	* [Writing Template Engine Wrappers](writing-template-engine-wrappers.md) - support any of the gazillion template formats out there
+	* [Writing Request Responders](writing-request-responders.md) - experiment with models and low-level message protocols
+
+<!-- * [HTML/CSS/JS code preprocessers](to_come.md)
 * [Live reload (development)](to_come.md)
 * [CSS/JS compilation and CDN asset pipeline management](to_come.md)
 * [WebSocket management](to_come.md)
@@ -33,4 +34,4 @@
 * [Custom WebSocket APIs](to_come.md)
 * [HTML Templates (custom or default)](to_come.md)
 * [Web Workers](to_come.md)
-* [Compatibility with Connect Middleware](to_come.md)
+* [Compatibility with Connect Middleware](to_come.md) -->
