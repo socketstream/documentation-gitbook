@@ -1,3 +1,7 @@
+##### Viewing this from GitHub? Visit the SocketStream GitBook website for the full experience. **[SocketStream Documentation →](https://arxpoetica.gitbooks.io/gs-css-rules/content/index.html)**
+
+----
+
 # SocketStream
 
 > The Future is Real Time
@@ -38,4 +42,4 @@ So what does SocketStream do? Here are some of the basics, but we'll go into dep
 * Web Workers
 * Compatibility with Connect Middleware
 
-Before we get into the nuts and bolts, however, let's get started.
+Before getting into the nuts and bolts, let's take a look at our [Quick Start guide →](quick-start.md)

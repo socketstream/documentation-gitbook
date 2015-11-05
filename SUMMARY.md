@@ -2,26 +2,26 @@
 
 * [Introduction](README.md)
 * [Quick Start](quick-start.md)
-* [Client-side Development](server-side-development/README.md)
-	* [Client-side Code](client-side-code.md)
-	* [Client-side Templates](client-side-templates.md)
-	* [Defining multiple Single-Page Clients](multiple-single-page-clients.md)
-	* [Loading Assets On Demand](loading-assets-on-demand.md)
-	* [Live Reload](live-reload.md)
-	* [Web Workers](web-workers.md)
+* [Client-side Development](client-side-development/README.md)
+	* [Client-side Code](client-side-development/client-side-code.md)
+	* [Client-side Templates](client-side-development/client-side-templates.md)
+	* [Defining multiple Single-Page Clients](client-side-development/multiple-single-page-clients.md)
+	* [Loading Assets On Demand](client-side-development/loading-assets-on-demand.md)
+	* [Live Reload](client-side-development/live-reload.md)
+	* [Web Workers](client-side-development/web-workers.md)
 * [Server-side Development](server-side-development/README.md)
-	* [RPC Responder](rpc-responder.md)
-	* [Pub/Sub Events](pub-sub-events.md)
-	* [Sessions](sessions.md)
-	* [Request Middleware](request-middleware.md)
-	* [HTTP Middleware](http-middleware.md)
-	* [Authentication](authentication.md)
-	* [Testing Your App](testing-your-app.md)
+	* [RPC Responder](server-side-development/rpc-responder.md)
+	* [Pub/Sub Events](server-side-development/pub-sub-events.md)
+	* [Sessions](server-side-development/sessions.md)
+	* [Request Middleware](server-side-development/request-middleware.md)
+	* [HTTP Middleware](server-side-development/http-middleware.md)
+	* [Authentication](server-side-development/authentication.md)
+	* [Testing Your App](server-side-development/testing-your-app.md)
 * [Best Practices](best-practices/README.md)
-	* [Hosting in Production](hosting-in-production.md) - Packing assets, CDNs, handling exceptions
+	* [Hosting in Production](best-practices/hosting-in-production.md) - Packing assets, CDNs, handling exceptions
 * [Extending SocketStream](extending-socketstream/README.md)
-	* [Writing Template Engine Wrappers](writing-template-engine-wrappers.md) - support any of the gazillion template formats out there
-	* [Writing Request Responders](writing-request-responders.md) - experiment with models and low-level message protocols
+	* [Writing Template Engine Wrappers](extending-socketstream/writing-template-engine-wrappers.md) - support any of the gazillion template formats out there
+	* [Writing Request Responders](extending-socketstream/writing-request-responders.md) - experiment with models and low-level message protocols
 
 <!-- * [HTML/CSS/JS code preprocessers](to_come.md)
 * [Live reload (development)](to_come.md)
