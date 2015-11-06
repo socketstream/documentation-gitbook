@@ -1,3 +1,7 @@
+##### Viewing this from GitHub? Visit the SocketStream GitBook website for the full experience. **[SocketStream Documentation →](https://arxpoetica.gitbooks.io/gs-css-rules/content/index.html)**
+
+----
+
 # SocketStream
 
 > The Future is Real Time
@@ -38,4 +42,17 @@ So what does SocketStream do? Here are some of the basics, but we'll go into dep
 * Web Workers
 * Compatibility with Connect Middleware
 
-Before we get into the nuts and bolts, however, let's get started.
+Before getting into the nuts and bolts, let's take a look at our [Quick Start guide →](quick-start.md)
+
+<!-- * [HTML/CSS/JS code preprocessers](to_come.md)
+* [Live reload (development)](to_come.md)
+* [CSS/JS compilation and CDN asset pipeline management](to_come.md)
+* [WebSocket management](to_come.md)
+* [RPC APIs](to_come.md)
+* [PubSub APIs](to_come.md)
+* [Client-side code organization](to_come.md)
+* [Session management (defaulted to REDIS)](to_come.md)
+* [Custom WebSocket APIs](to_come.md)
+* [HTML Templates (custom or default)](to_come.md)
+* [Web Workers](to_come.md)
+* [Compatibility with Connect Middleware](to_come.md) -->

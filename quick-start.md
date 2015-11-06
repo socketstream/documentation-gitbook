@@ -35,8 +35,6 @@ npm install
 npm start
 ```
 
-Open your favorite development browser at `http://localhost:3000/` and start hacking! That’s it!
+Open your favorite development browser at [http://localhost:3000/](http://localhost:3000/) and start hacking!
 
-For a more comprehensive guide, see our [Getting Started](#) tutorial.
-
-Let us know about your project(s). We're always looking to grow the community. More at:
+For a more comprehensive guide, [continue with our documentation →](client-side-development/README.md)

@@ -1,11 +1,6 @@
-@ngdoc overview
-@name Client-Side Code
-
-@description
 # Client-Side Code
 
 SocketStream allows you to write and structure client-side Javascript in exactly the same way as server-side code, allowing you to easily share modules between both.
-
 
 ### How to use Modules
 
@@ -15,18 +10,15 @@ Client-side code lives in `/client/code`. Create as many subdirectories as you w
 
 Top tip: Type `require.modules` in the browser console to see a list of all modules you can `require()` in your app
 
-
 ### Special Exceptions
 
 While we try to keep the experience between browser and server as similar as possible, there are a few special cases to be aware of:
-
 
 #### 'libs' - Legacy (non Common JS) Libraries
 
 Any file which lives in a directory called 'libs' will NOT be served as a module. Instead these files will be sent as-is without any modification. Typically you'll want to ensure jQuery and other libraries which use the `window` variable are always placed in a `/client/code` directory called 'libs'.
 
 As load order is critically important for non Common JS libraries **either** name your files alphanumerically within the `libs` directory **or** list each file explicitly in your `ss.client.define()` command - your choice.
-
 
 #### 'system' - System Modules
 
@@ -37,7 +29,6 @@ So why do we need this distinction? Because some libraries such as Backbone.js (
 As SocketStream uses code from [Browserify](https://github.com/substack/node-browserify), the 'system' directory also allows you to use one of Node's inbuilt modules in the browser. Just head over to https://github.com/substack/node-browserify/tree/master/builtins and copy the libraries you need into any directory within `/client/code` called `system`.
 
 Tip: If you're making a new folder called `/client/code/system`, don't forget to add `system` to the list of code directores to serve in the `ss.client.define()` statement within `app.js`.
-
 
 #### '/entry.js' - A single point of entry
 
@@ -74,13 +65,11 @@ Within client view code you should generally require another module by relative 
 If you use absolute path it will be relative to the client directory, so if you want to require a directory module within the default
 code directory do something like,
 
-    require("/code/app/part1")
+	require("/code/app/part1")
 
 This will load the module for the source file `/code/app/part1/index.js` or `/code/app/part1/index.coffee`. If part1 isn't a directory
 it can also be used to load `/code/app/part1.js`. You could also do this explicitly using `require("/code/app/part1/index.js")`,
 but this isn't advised as it locks you in to the exact source structure.
-
-
 
 ### Loading modules on demand
 
