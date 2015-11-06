@@ -43,3 +43,16 @@ So what does SocketStream do? Here are some of the basics, but we'll go into dep
 * Compatibility with Connect Middleware
 
 Before getting into the nuts and bolts, let's take a look at our [Quick Start guide →](quick-start.md)
+
+<!-- * [HTML/CSS/JS code preprocessers](to_come.md)
+* [Live reload (development)](to_come.md)
+* [CSS/JS compilation and CDN asset pipeline management](to_come.md)
+* [WebSocket management](to_come.md)
+* [RPC APIs](to_come.md)
+* [PubSub APIs](to_come.md)
+* [Client-side code organization](to_come.md)
+* [Session management (defaulted to REDIS)](to_come.md)
+* [Custom WebSocket APIs](to_come.md)
+* [HTML Templates (custom or default)](to_come.md)
+* [Web Workers](to_come.md)
+* [Compatibility with Connect Middleware](to_come.md) -->
